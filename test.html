@@ -3,7 +3,29 @@
   <meta charset="utf-8">
   <title>MB</title>
   <!--<link href="test.css" rel="stylesheet" type="text/css">-->
+  <style> /* set the CSS */
 
+  body { font: 12px Arial;}
+
+  #vizContainer {
+    background-color: blue;
+  }
+
+  path { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+  }
+
+</style>
   <body>
     <div id="vizContainer"></div>
     <script src="js/d3.v4.min.js" type="text/javascript" charset="utf-8"></script>
