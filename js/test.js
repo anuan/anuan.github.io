@@ -1,12 +1,12 @@
 !function() {
-	
+
 // Set the dimensions of the canvas / graph
 var margin = {top: 30, right: 20, bottom: 30, left: 50},
     width = 600 - margin.left - margin.right,
     height = 270 - margin.top - margin.bottom;
 
 // Parse the date / time
-var parseDate = d3.time.format("%d-%b-%y").parse;
+var parseDate = d3.timeFormat("%d-%b-%y").parse;
 
 // Set the ranges
 var x = d3.time.scale().range([0, width]);
