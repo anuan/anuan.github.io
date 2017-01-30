@@ -1,5 +1,5 @@
 !function() {
-  var svgContainer = d3.select("vizContainer").append("svg")
+  var svgContainer = d3.select("#vizContainer").append("svg")
                                      .attr("width", 200)
                                      .attr("height", 200);
  
