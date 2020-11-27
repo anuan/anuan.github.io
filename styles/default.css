@@ -8,7 +8,7 @@ nav {
 }
 
 body {
-  margin: 10px 100px;
+/*  margin: 10px;*/
   font-family: 'Noto Serif', serif;
   line-height: 2rem;
   color: #3d3d3d;
@@ -23,10 +23,10 @@ body {
   margin-bottom: 5px;
 }
 
-article {
+/*article {
   margin: 10px 10%;
-  max-width: 50%;
-}
+  max-width: 100%;
+}*/
 
 p.trans-tb {
   margin: 5px 15px;
