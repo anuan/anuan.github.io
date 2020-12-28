@@ -23,37 +23,35 @@ body {
   margin-bottom: 5px;
 }
 
-article {
+/*article {
   margin: 10px 10%;
   max-width: 100%;
-}
+}*/
 
-span.trans-tb {
+p.trans-tb {
   margin: 5px 15px;
   font-weight: 200;
 }
 
 h1 span.abbrev {
-  font-style: italic;
-  display: none;
+  display: block;
 }
 
 h1 span.p-dn {
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 h1 span.en-r {
   font-weight: 300;
   font-size: 1.2rem;
   font-style: italic;
-  display: none;
 }
 
 h1 span.trans-tb {
   margin: 5px 15px;
   font-weight: 200;
   font-size: 1.4rem;
-  font-style: italic;
+  display: block;
 }
 
