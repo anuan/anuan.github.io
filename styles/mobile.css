@@ -33,8 +33,12 @@ p.trans-tb {
   font-weight: 200;
 }
 
-h1 span.abbrev {
+.block {
   display: block;
+}
+
+h1 span.abbrev {
+  display: none;
 }
 
 h1 span.p-dn {
@@ -46,12 +50,14 @@ h1 span.en-r {
   font-weight: 300;
   font-size: 1.2rem;
   font-style: italic;
+  display: none;
 }
 
 h1 span.trans-tb {
-  margin: 5px 15px;
+  margin: 5px;
   font-weight: 200;
   font-size: 1.4rem;
+  font-style: italic;
   display: block;
 }
 

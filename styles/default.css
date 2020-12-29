@@ -3,18 +3,16 @@ header {
   color: brown;
 }
 
-nav {
-  color: #b3603d;
-}
 
 body {
-/*  margin: 10px;*/
+  margin: 10px 10%;
+  max-width: 100%;
   font-family: 'Noto Serif', serif;
   line-height: 2rem;
   color: #3d3d3d;
 }
 
-.p-dn {
+.d {
   color: #800000;
   /*font-family: 'Mukta', sans-serif;*/
   font-weight: 300;
@@ -23,14 +21,22 @@ body {
   margin-bottom: 5px;
 }
 
-article {
-  margin: 10px 10%;
-  max-width: 100%;
+.e {
+  font-style: italic;
+  display: none;
 }
 
-span.trans-tb {
+.t {
   margin: 5px 15px;
   font-weight: 200;
+  font-style: italic;
+}
+
+nav, nav span.d {
+  font-size: 0.8rem;
+}
+
+span.t {
 }
 
 h1 span.abbrev {
@@ -38,22 +44,19 @@ h1 span.abbrev {
   display: none;
 }
 
-h1 span.p-dn {
+h1 span.d {
   font-weight: 600;
   font-size: 3rem;
 }
 
-h1 span.en-r {
+h1 span.e {
   font-weight: 300;
   font-size: 1.2rem;
-  font-style: italic;
-  display: none;
 }
 
-h1 span.trans-tb {
-  margin: 5px 15px;
-  font-weight: 200;
+h1 span.t {
   font-size: 1.4rem;
-  font-style: italic;
+  display: block;
+  margin: 5px 25px;
 }
 
