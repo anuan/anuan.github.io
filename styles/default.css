@@ -36,7 +36,8 @@ nav, nav span.d {
   font-size: 0.8rem;
 }
 
-span.t {
+nav span.t {
+  font-size: 0.6rem;
 }
 
 h1 span.abbrev {
