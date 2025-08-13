@@ -8,7 +8,14 @@ const config = {
 	// for more information about preprocessors
 	extensions: ['.svelte', '.svx'],
 	preprocess: [mdsvex(), vitePreprocess()],
-	kit: { adapter: adapter() }
+	kit: {
+		adapter: adapter({
+			fallback: '404.html'
+		}),
+		paths: {
+			base: process.env.NODE_ENV === 'production' ? '/anuan.github.io' : '',
+		}
+	}
 };
 
 export default config;
