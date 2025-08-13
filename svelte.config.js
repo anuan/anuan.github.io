@@ -10,7 +10,11 @@ const config = {
 	preprocess: [mdsvex(), vitePreprocess()],
 	kit: {
 		adapter: adapter({
-			fallback: '404.html'
+			pages: 'docs',
+			assets: 'docs',
+			fallback: '404.html',
+			precompress: false,
+			strict: true
 		}),
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? '/anuan.github.io' : '',
