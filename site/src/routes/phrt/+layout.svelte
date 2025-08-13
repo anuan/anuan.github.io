@@ -9,9 +9,9 @@
 </svelte:head>
 
 <nav>
-	<a href="/">Home</a>
-	<a href="/about">About</a>
-	<a href="/faq">FAQ</a>
+	<a href="/phrt/">Home</a>
+	<a href="/phrt/about">About</a>
+	<a href="/phrt/faq">FAQ</a>
 </nav>
 
 {@render children?.()}
