@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+main {
+    position: relative;
+    top: 200px;
+    width: 50%;
+    background: white;
+    margin: auto;
+    padding: 10px;
+    color: rgb(50, 50, 50);
+}
+
+h1 {
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 60px;
+    color: rgb(152, 39, 39);
+}
