@@ -1,10 +1,10 @@
 <main>
 	<h1>From Correlations To Causal Understanding</h1>
-	<video width="640" height="320" controls autoplay>
+	<!--<video width="640" height="320" controls autoplay>
 		<source src="src/website-draft.mp4" type="video/mp4" />
 		From Correlations To Causal Understanding
 		<track kind="captions" />
-	</video>
+	</video>-->
 
 	<h2>Traditional Models</h2>
     <h3>See Associations, Miss Mechanisms</h3>
