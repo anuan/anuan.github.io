@@ -3,7 +3,7 @@
 </script>
 <main>
 	<h1>From Correlations To Causal Understanding</h1>
-	<video width="640" height="320" controls autoplay>
+	<video controls autoplay>
 		<source src={video} type="video/mp4" />
 		From Correlations To Causal Understanding
 		<track kind="captions" />
@@ -99,6 +99,11 @@
 		margin: auto;
 		padding: 20px;
 		color: rgb(50, 50, 50);
+	}
+
+	video {
+		width: 90%;
+		height: auto;
 	}
 
 	h1, h2, h3 {
