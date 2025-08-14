@@ -91,7 +91,7 @@
 		position: relative;
 		top: 40px;
 		width: 90%;
-		background: rgb(250, 239, 225);
+		background: white;
 		margin: auto;
 		padding: 20px;
 		color: rgb(50, 50, 50);
@@ -100,7 +100,7 @@
 	h1, h2, h3 {
 		font-family: 'Rethink Sans', sans-serif;
 		font-size: 60px;
-		color: rgb(152, 39, 39);
+		color: teal;
 	}
 
     h2 {

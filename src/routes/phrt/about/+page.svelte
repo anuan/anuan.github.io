@@ -50,7 +50,7 @@
 	h1 {
 		font-family: 'Rethink Sans', sans-serif;
 		font-size: 60px;
-		color: rgb(152, 39, 39);
+		color: teal;
 	}
 
 
