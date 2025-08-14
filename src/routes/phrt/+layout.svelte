@@ -17,12 +17,21 @@
 {@render children?.()}
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
 	nav {
-		position: relative;
+		display: flex;
+		justify-content: flex-end;
+		gap: 10px;
 		float: right;
-		top: 50px;
-		width: 100%;
-		/*height: 100vh;*/
-		background: green;
+		top: 0px;
+		width: 95%;
+		margin: 10px;
+		height: 5vh;
+		font-family: 'Rethink Sans', sans-serif;
+	}
+
+	a {
+		font-size: 24px;
 	}
 </style>

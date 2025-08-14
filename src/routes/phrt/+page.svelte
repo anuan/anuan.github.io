@@ -1,10 +1,13 @@
+<script lang="ts">
+	import video from '$lib/assets/website_draft-small.mp4';
+</script>
 <main>
 	<h1>From Correlations To Causal Understanding</h1>
-	<!--<video width="640" height="320" controls autoplay>
-		<source src="src/website-draft.mp4" type="video/mp4" />
+	<video width="640" height="320" controls autoplay>
+		<source src={video} type="video/mp4" />
 		From Correlations To Causal Understanding
 		<track kind="captions" />
-	</video>-->
+	</video>
 
 	<h2>Traditional Models</h2>
     <h3>See Associations, Miss Mechanisms</h3>
@@ -14,12 +17,13 @@
 	I.e. they predict outcomes without understanding cause and effect in data.</p>
 	
 	<h2>Problem</h2>
-	The problem is ... **we miss what drives the data**. As a consequence, * models incorporate confounding,
+	<p>The problem is ... **we miss what drives the data**. As a consequence, * models incorporate confounding,
 	dataset bias & algorithm bias * models do not transport to different populations and clinical settings
 	* models cannot reliably estimate effect of interventions * models do not support comparisons of different
 	treatment strategies * models do not support “what if” scenarios * models are black-box and their predictions
 	are hard to explain In summary, the models provide **limited insights** and contain **potential biases**.
-
+	</p>
+	
 	<h2>Solution</h2>
 
 	The solution is to **model what drives the data**. That is, introduce a causal story/blueprint
@@ -85,11 +89,11 @@
 
 	main {
 		position: relative;
-		top: 80px;
-		width: 50%;
-		background: white;
+		top: 40px;
+		width: 90%;
+		background: rgb(250, 239, 225);
 		margin: auto;
-		padding: 10px;
+		padding: 20px;
 		color: rgb(50, 50, 50);
 	}
 
@@ -106,4 +110,10 @@
     h3 {
         font-size: 20px;
     }
+
+	p {
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		line-height: 1.5;
+		margin-bottom: 60px;
+	}
 </style>

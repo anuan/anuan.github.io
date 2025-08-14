@@ -176,7 +176,7 @@
 	main {
 		position: relative;
 		top: 80px;
-		width: 50%;
+		width: 90%;
 		background: white;
 		margin: auto;
 		padding: 10px;
