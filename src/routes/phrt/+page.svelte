@@ -26,7 +26,7 @@
 	
 	<h2>Solution</h2>
 
-	The solution is to **model what drives the data**. That is, introduce a causal story/blueprint
+	<p>The solution is to **model what drives the data**. That is, introduce a causal story/blueprint
 	that models the structure of the relationships and variable interdependencies within the data.
 	This enables us to * mitigate sources of confounding, dataset bias & algorithm bias * transport to
 	different populations and clinical settings * reliable estimates of interventions * reliable
@@ -36,10 +36,11 @@
 	potential biases and sources of confounding. And the models we develop are now **Causal AI
 	models** that leverage causal structure and follow the logic of biology. In other words, our
 	models are models **with guardrails** that align with biological processes & clinical knowledge.
-
+	</p>
+	
 	<h1>Causal Model Development</h1>
 
-	So, how does this work?
+	<p>So, how does this work?</p>
 
 	<h2>Causal Story Development</h2>
 
@@ -67,25 +68,28 @@
 
 	<h1>In (the) Practice</h1>
 
-	Patients pose their questions about their illness and treatment options to the clinician, e.g.
+	<p>Patients pose their questions about their illness and treatment options to the clinician, e.g.
 	"How long do I have?", "How will this treatment affect my life?" etc. Clinicians populate the
 	model with patient data and can query it for various survival and quality of life outcomes. A
 	clinician can also pose "what-if" scenarios to understand the prognosis under different treatment
 	regimes. This can form the basis of a shared decision-making process where the patient and
 	clinician collaborate to find the best treatment regime for the patient.
+	</p>
 
 	<h1>Multi-Stakeholder Collaboration</h1>
 
-	Causal model development naturally involves multiple key stakeholders and their perspectives. From
+	<p>Causal model development naturally involves multiple key stakeholders and their perspectives. From
 	clinicians and scientists to develop the causal story, to clinicians and data scientists to
 	mitigate potential sources of confounding and gather data and to eventually building the causal
-	model itself.
+	model itself.</p>
+	
 
 	<h1>Want to get Involved?</h1>
 </main>
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ovo&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
 
 	main {
 		position: relative;
@@ -98,7 +102,7 @@
 	}
 
 	h1, h2, h3 {
-		font-family: 'Rethink Sans', sans-serif;
+		font-family: "Overlock", sans-serif;
 		font-size: 60px;
 		color: teal;
 	}
@@ -112,7 +116,10 @@
     }
 
 	p {
-		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-family: "Ovo", serif;
+		font-weight: 400;
+  		font-style: normal;
+		font-size: 18px;
 		line-height: 1.5;
 		margin-bottom: 60px;
 	}

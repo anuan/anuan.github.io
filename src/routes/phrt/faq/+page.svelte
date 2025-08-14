@@ -184,14 +184,13 @@
 	}
 
 	h1 {
-		font-family: 'Rethink Sans', sans-serif;
+		font-family: "Overlock", sans-serif;
 		font-size: 60px;
 		color: teal;
 	}
 
 	.q_and_a {
-		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-		line-height: 1.5;
+		font-family: "Ovo", serif;
 		margin-bottom: 60px;
 	}
 
