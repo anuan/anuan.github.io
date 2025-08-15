@@ -63,6 +63,10 @@
 	}
 
 	@media all and (max-width: 600px) {
+		nav {
+			gap: 0px;
+		}
+		
 		a.hide-mobile {
 			display: none;
 		}
