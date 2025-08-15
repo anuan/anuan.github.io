@@ -11,8 +11,8 @@
 			patients and clinicians.</b
 		>
 	</p>
-	<p><b>Empowering Patients and Clinicians with Causal AI for Better Health Decisions</b></p>
-	<p><b>Personalized Healthcare Requires Causal Thinking</b></p>
+	<p>Alternative: <b>Empowering Patients and Clinicians with Causal AI for Better Health Decisions</b></p>
+	<p>Alternative: <b>Personalized Healthcare Requires Causal Thinking</b></p>
 	<p>
 		Today's healthcare decisions are often based on population averages, not individual causal
 		factors. We are building a platform that uses causal inference and machine learning to create
@@ -25,7 +25,7 @@
 		From Correlations To Causal Understanding
 		<track kind="captions" />
 	</video>
-	<p class="buttons"><a href="/phrt/vision" class="button">Explore The Vision</a></p>
+	<p class="buttons"><a href="/phrt/vision" class="button">Explore the Vision</a></p>
 
 	<h2>The Challenge with Today's Data-Driven Medicine</h2>
 	<p><i>boxes with</i></p>
@@ -53,7 +53,7 @@
 		treatment options, enabling truly informed and shared decision-making.
 	</p>
 
-	<p class="buttons"><a href="/phrt/approach" class="button">Discover Our Approach</a></p>
+	<p class="buttons"><a href="/phrt/approach" class="button">Discover our Approach</a></p>
 
 	<h2>Join Us in Shaping the Future of Personalized Health</h2>
 
