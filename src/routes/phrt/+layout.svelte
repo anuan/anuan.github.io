@@ -12,7 +12,7 @@
 	<a href="/phrt/">Home</a>
 	<a href="/phrt/vision">Vision</a>
 	<a href="/phrt/faq">FAQ</a>
-	<a href="/phrt/about">About</a>
+	<a href="/phrt/about" class="highlight">Contact</a>
 </nav>
 
 {@render children?.()}
@@ -23,25 +23,37 @@
 	nav {
 		display: flex;
 		justify-content: flex-end;
-		gap: 10px;
+		align-items: center;
+		gap: 8px;
 		float: right;
 		top: 0px;
-		width: 95%;
-		margin: 10px;
+		width: 100%;
+		margin: 0px;
 		height: 5vh;
-		font-family: "Overlock", sans-serif;
+		padding: 10px 30px;
+		font-family: "Rethink Sans", sans-serif;
+		border-bottom: 1px solid whitesmoke;
+		background-color: white;
 	}
 
 	a {
-		font-size: 18px;
-		color: teal;
+		font-size: 16px;
+		color: #2D3142;
 		text-decoration: none;
 		text-align: center;
 		padding: 10px 20px;
 	}
 
 	a:hover, a:active {
-		font-size: 18px;
 		color: teal;
+	}
+
+	a.highlight {
+		color: white;
+		background-color: teal;
+		border-radius: 25px;
+		text-align: center;
+  		width: 60px;
+  		height: 24px;
 	}
 </style>

@@ -1,3 +1,7 @@
+<script lang="ts">
+	import '../global.css';
+</script>
+
 <main>
 	<h1>Frequently asked questions</h1>
 
@@ -207,37 +211,6 @@
 </main>
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ovo&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
-
-	main {
-		position: relative;
-		top: 80px;
-		width: 90%;
-		max-width: 800px;
-		background: white;
-		margin: auto;
-		padding: 10px;
-		color: rgb(50, 50, 50);
-	}
-
-	h1, h2, h3 {
-		font-family: 'Overlock', sans-serif;
-		font-size: 60px;
-		color: teal;
-	}
-
-	h1 {
-		margin-bottom: 90px;
-	}
-
-	h2 {
-		font-size: 36px;
-	}
-
-	h3 {
-		font-size: 28px;
-	}
-
 	.q_and_a {
 		font-family: 'Newsreader', serif;
 		margin-bottom: 60px;
