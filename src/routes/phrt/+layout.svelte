@@ -36,7 +36,7 @@
 		padding: 10px 30px;
 		font-family: 'Rethink Sans', sans-serif;
 		border-bottom: 1px solid whitesmoke;
-		background-color: white;
+		background-color: #f2f8f5;
 	}
 
 	a {
@@ -60,5 +60,11 @@
 		text-align: center;
 		width: 60px;
 		height: 24px;
+	}
+
+	@media all and (max-width: 600px) {
+		a:not(.highlight) {
+			display: none;
+		}
 	}
 </style>

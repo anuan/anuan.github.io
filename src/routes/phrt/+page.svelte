@@ -4,15 +4,13 @@
 </script>
 
 <main>
-	<h1>Transforming Healthcare Decisions with Causal AI</h1>
+	<h1>Transforming Healthcare Decisions with Personalized Causal AI</h1>
 	<p>
 		<b
 			>Moving beyond population averages to provide personalized, cause-and-effect insights for
 			patients and clinicians.</b
 		>
 	</p>
-	<p>Alternative: <b>Empowering Patients and Clinicians with Causal AI for Better Health Decisions</b></p>
-	<p>Alternative: <b>Personalized Healthcare Requires Causal Thinking</b></p>
 	<p>
 		Today's healthcare decisions are often based on population averages, not individual causal
 		factors. We are building a platform that uses causal inference and machine learning to create
@@ -25,24 +23,32 @@
 		From Correlations To Causal Understanding
 		<track kind="captions" />
 	</video>
-	<p class="buttons"><a href="/phrt/vision" class="button">Explore the Vision</a></p>
+	<p class="buttons"><a href="/phrt/vision" class="button">Our Vision</a></p>
 
 	<h2>The Challenge with Today's Data-Driven Medicine</h2>
-	<p><i>boxes with</i></p>
-	<ul>
-		<li>
-			<b>Information Overload</b>Clinicians and patients are awash in data, but it often lacks
-			clear, actionable meaning for the individual.
-		</li>
-		<li>
-			<b>"Black Box" Predictions</b>Current AI models find correlations but can't explain the "why,"
-			leading to a lack of trust and portability.
-		</li>
-		<li>
-			<b>Impersonal Insights</b>Recommendations are based on averages, failing to answer a patient's
-			key question: "What is the best path for me?"
-		</li>
-	</ul>
+	<div class="boxes">
+		<div class="box">
+			<h3>Information Overload</h3>
+			<p>
+				Clinicians and patients are awash in data, but it often lacks clear, actionable meaning for
+				the individual.
+			</p>
+		</div>
+		<div class="box">
+			<h3>"Black Box" Predictions</h3>
+			<p>
+				Current AI models find correlations but can't explain the "why," leading to a lack of trust
+				and portability.
+			</p>
+		</div>
+		<div class="box">
+			<h3>Impersonal Insights</h3>
+			<p>
+				Recommendations are based on averages, failing to answer a patient's key question: "What is
+				the best path for me?"
+			</p>
+		</div>
+	</div>
 
 	<h2>Our Solution: A Platform Built on Causal Understanding</h2>
 	<p>
@@ -53,7 +59,7 @@
 		treatment options, enabling truly informed and shared decision-making.
 	</p>
 
-	<p class="buttons"><a href="/phrt/approach" class="button">Discover our Approach</a></p>
+	<p class="buttons"><a href="/phrt/approach" class="button">Our Approach</a></p>
 
 	<h2>Join Us in Shaping the Future of Personalized Health</h2>
 
@@ -80,12 +86,36 @@
 		</li>
 	</ul>
 
+	<div class="boxes">
+		<div class="box">
+			<h3>Clinicians & Researchers</h3>
+			<p>
+				Partner with us to build and validate causal models in your
+			area of expertise.
+			</p>
+		</div>
+		<div class="box">
+			<h3>Data Scientists & Engineers</h3>
+			<p>
+				Lend your skills to a grand challenge in AI for health and
+			help us build the core platform.
+			</p>
+		</div>
+		<div class="box">
+			<h3>Patient Advocates</h3>
+			<p>
+				Ensure our tools are designed to truly empower patients and meet
+			their needs.
+			</p>
+		</div>
+	</div>
+
 	<h2>Ready to Learn More?</h2>
 
 	<p>Explore our vision in detail, learn about our team, or get answers to common questions.</p>
 	<p class="buttons">
-		<a href="/phrt/about" class="button">About Us & Contact</a>
-		<a href="/phrt/faq" class="button">Read the FAQ</a>
+		<a href="/phrt/about" class="button">Get in Touch</a>
+		<a href="/phrt/faq" class="button">FAQ</a>
 	</p>
 </main>
 
