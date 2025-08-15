@@ -1,0 +1,1 @@
+import"../chunks/DsnmJJEf.js";import"../chunks/C3ZzvBFu.js";import{X as o,_ as m}from"../chunks/DfvMeyEu.js";var s=o('<main class="svelte-rrux5w"><h1 class="svelte-rrux5w">Vision</h1></main>');function e(r){var a=s();m(r,a)}export{e as component};

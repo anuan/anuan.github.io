@@ -1,13 +1,21 @@
 <main>
-	<h1>Contact Us</h1>
+	<h1>Who We Are</h1>
+	<h2>Bio</h2>
+	<p>Headshots, our relevant experience and background and how it helps for this project.</p>
+	<h2>Motivation</h2>
+	<p>Personal paragraph on why we're tackling this problem.</p>
+
+
+	<h1>How to Reach Us</h1>
+	<p>Reach out to us individually via LinkedIn or send us a message using the form below.</p>
 	<form action="https://formspree.io/f/mqalnroo" class="fs-form" method="POST">
 		<div class="fs-field">
 			<label class="fs-label" for="email">Email</label>
-			<input class="fs-input" id="email" name="email" required />
+			<input class="fs-input" id="email" name="email" placeholder="Your email address" required />
 		</div>
 		<div class="fs-field">
 			<label class="fs-label" for="message">Message</label>
-			<textarea class="fs-textarea" id="message" name="message"></textarea>
+			<textarea class="fs-textarea" id="message" name="message" placeholder="I'm curious to learn more ..."></textarea>
 		</div>
 		<div class="fs-button-group">
 			<button class="fs-button" type="submit">Submit</button>
@@ -37,12 +45,13 @@
 		position: relative;
 		top: 80px;
 		width: 90%;
+		max-width: 800px;
 		background: white;
 		margin: auto;
 		padding: 10px;
 		color: rgb(50, 50, 50);
 		-webkit-font-smoothing: antialiased;
-		font-family: "Ovo", serif;
+		font-family: "Merriweather", serif;
 		font-size: 24px;
 		font-optical-sizing: auto;
 	}
@@ -52,6 +61,22 @@
 		font-size: 60px;
 		color: teal;
 	}
+
+	p,
+	ul {
+		font-family: 'Newsreader', serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 21px;
+		line-height: 1.5;
+		margin-bottom: 20px;
+	}
+
+	b {
+		font-weight: 600;
+		font-style: italic;
+	}
+
 
 	/** Base **/
 
@@ -132,6 +157,7 @@
 		outline: none;
 		padding: 0.5rem 0.75rem;
 		resize: vertical;
+		height: 300px;
 	}
 
 	.fs-textarea:focus-visible {

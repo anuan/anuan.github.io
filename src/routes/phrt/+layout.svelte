@@ -10,8 +10,9 @@
 
 <nav>
 	<a href="/phrt/">Home</a>
-	<a href="/phrt/about">About</a>
+	<a href="/phrt/vision">Vision</a>
 	<a href="/phrt/faq">FAQ</a>
+	<a href="/phrt/about">About</a>
 </nav>
 
 {@render children?.()}
