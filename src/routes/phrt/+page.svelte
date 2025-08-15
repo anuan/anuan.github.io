@@ -67,24 +67,6 @@
 		Building this future requires a symphony of expertise. We believe the best solutions are built
 		collaboratively. We are actively seeking partners and collaborators to join our mission.
 	</p>
-	<ul>
-		<li>
-			<b>Clinicians & Researchers:</b>Partner with us to build and validate causal models in your
-			area of expertise.
-		</li>
-		<li>
-			<b>Data Scientists & Engineers:</b>Lend your skills to a grand challenge in AI for health and
-			help us build the core platform.
-		</li>
-		<li>
-			<b>Patient Advocates:</b>Ensure our tools are designed to truly empower patients and meet
-			their needs.
-		</li>
-		<li>
-			<b>Healthcare Innovators:</b>Ensure our tools are designed to truly empower patients and meet
-			their needs.
-		</li>
-	</ul>
 
 	<div class="boxes">
 		<div class="box">
