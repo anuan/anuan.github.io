@@ -3,7 +3,7 @@
 </script>
 
 <main>
-	<h1>Our Vision: A New Paradigm for Shared Decision-Making</h1>
+	<h1>A New Paradigm for Shared Decision-Making</h1>
 	<p>
 		Modern medicine has access to more data than ever before. Yet, for both patients and clinicians,
 		making critical healthcare decisions can feel like navigating with an incomplete map. We believe
@@ -25,8 +25,8 @@
 	</p>
 	<ul>
 		<li>
-			<b>Incorporate Bias:</b> They passively learn and amplify confounding variables, dataset biases, and
-			algorithmic biases present in the observational data.
+			<b>Incorporate Bias:</b> They passively learn and amplify confounding variables, dataset biases,
+			and algorithmic biases present in the observational data.
 		</li>
 		<li>
 			<b>Lack Portability:</b> A model trained in one hospital often fails when applied to a different
@@ -49,9 +49,10 @@
 
 	<h2>Our Solution: Modeling What Truly Drives the Data</h2>
 	<p>
-		We propose a paradigm shift: instead of just learning from data, we start by modeling 
-        <i>what drives the data</i>. We build a causal blueprint—a story of the relationships and interdependencies between
-		variables—informed by deep clinical knowledge and biological principles.
+		We propose a paradigm shift: instead of just learning from data, we start by modeling
+		<i>what drives the data</i>. We build a causal blueprint—a story of the relationships and
+		interdependencies between variables—informed by deep clinical knowledge and biological
+		principles.
 	</p>
 
 	<p>This causal framework acts as "guardrails" for our AI. It allows us to:</p>
@@ -66,12 +67,12 @@
 			and settings because they are based on stable, underlying mechanisms.
 		</li>
 		<li>
-			<b>Enable "What If" Scenarios:</b> Reliably estimate the effect of interventions and compare
-			different treatment strategies, empowering clinicians to explore possibilities.
+			<b>Enable "What If" Scenarios:</b> Reliably estimate the effect of interventions and compare different
+			treatment strategies, empowering clinicians to explore possibilities.
 		</li>
 		<li>
-			<b>Provide Built-in Interpretability:</b> Offer transparent, explainable predictions that align with
-			clinical logic and foster trust.
+			<b>Provide Built-in Interpretability:</b> Offer transparent, explainable predictions that align
+			with clinical logic and foster trust.
 		</li>
 	</ul>
 
@@ -95,13 +96,13 @@
 		</li>
 		<li>
 			<b>Simulate & Compare:</b> The clinician can now pose "what-if" scenarios. The platform simulates
-			the likely trajectory of Sarah's quality of life and key health outcomes under different
-			treatment plans. It's not just a prediction; it's a comparison of causal effects.
+			the likely trajectory of Sarah's quality of life and key health outcomes under different treatment
+			plans. It's not just a prediction; it's a comparison of causal effects.
 		</li>
 		<li>
-			<b>Shared Decision-Making:</b> Together, Sarah and her clinician review the potential outcomes. The
-			visual and intuitive interface helps Sarah understand the trade-offs, allowing her to
-			co-author a treatment plan that aligns with her personal goals and values.
+			<b>Shared Decision-Making:</b> Together, Sarah and her clinician review the potential outcomes.
+			The visual and intuitive interface helps Sarah understand the trade-offs, allowing her to co-author
+			a treatment plan that aligns with her personal goals and values.
 		</li>
 	</ol>
 	<p>
@@ -117,30 +118,28 @@
 	<ol>
 		<li>
 			<b>Develop the Causal Story:</b> We bring together clinicians, epidemiologists, and biomedical
-			researchers to map out the causal graph—the network of relationships that defines a disease
-			process.
+			researchers to map out the causal graph—the network of relationships that defines a disease process.
 		</li>
 		<li>
-			<b>Gather Targeted Data:</b> The causal graph tells us what data is most important. This allows us
-			to be strategic, gathering the <i>right</i> data, not just <i>more</i> data, to answer the most critical
-			questions.
+			<b>Gather Targeted Data:</b> The causal graph tells us what data is most important. This
+			allows us to be strategic, gathering the <i>right</i> data, not just <i>more</i> data, to answer
+			the most critical questions.
 		</li>
 		<li>
 			<b>Build the Causal AI Model:</b> Our data scientists then use this causal "scaffolding" to build
 			the computational model, ensuring it respects the established biological and clinical logic.
 		</li>
 		<li>
-			<b>Refine and Iterate:</b> The model is continuously tested, refined, and updated with new data and
-			insights from all stakeholders, including patients.
+			<b>Refine and Iterate:</b> The model is continuously tested, refined, and updated with new data
+			and insights from all stakeholders, including patients.
 		</li>
 	</ol>
 	<p>
 		We are actively seeking collaborators to join us on this journey. If you are a clinician,
 		researcher, data scientist, or patient advocate who believes in a more transparent, robust, and
-		collaborative future for healthcare, we would love to <a href="/phrt/about">connect</a> with you. 
+		collaborative future for healthcare, we would love to <a href="/phrt/about">connect</a> with you.
 	</p>
 </main>
 
 <style>
-
 </style>

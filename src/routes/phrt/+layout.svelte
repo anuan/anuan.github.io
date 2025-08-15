@@ -11,6 +11,9 @@
 <nav>
 	<a href="/phrt/">Home</a>
 	<a href="/phrt/vision">Vision</a>
+	<a href="/phrt/approach">Approach</a>
+	<a href="/phrt/impact">Impact</a>
+	<a href="/phrt/roadmap">Roadmap</a>
 	<a href="/phrt/faq">FAQ</a>
 	<a href="/phrt/about" class="highlight">Contact</a>
 </nav>
@@ -31,20 +34,22 @@
 		margin: 0px;
 		height: 5vh;
 		padding: 10px 30px;
-		font-family: "Rethink Sans", sans-serif;
+		font-family: 'Rethink Sans', sans-serif;
 		border-bottom: 1px solid whitesmoke;
 		background-color: white;
 	}
 
 	a {
 		font-size: 16px;
-		color: #2D3142;
+		color: #2d3142;
 		text-decoration: none;
 		text-align: center;
 		padding: 10px 20px;
+		font-family: 'Rethink Sans', sans-serif;
 	}
 
-	a:hover, a:active {
+	a:hover,
+	a:active {
 		color: teal;
 	}
 
@@ -53,7 +58,7 @@
 		background-color: teal;
 		border-radius: 25px;
 		text-align: center;
-  		width: 60px;
-  		height: 24px;
+		width: 60px;
+		height: 24px;
 	}
 </style>
