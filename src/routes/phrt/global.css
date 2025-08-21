@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ovo&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Genos:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ovo&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 
 body {
     margin: 0;
@@ -10,24 +10,35 @@ main {
     margin: auto;
     padding: 20px;
     padding-top: 80px;
-    color: rgb(50, 50, 50);
+    color: #595358; /*rgb(50, 50, 50);  #2d3142*/
 }
 
 
 h1,
 h2,
-h3 {
+h3, h4 {
     font-family: 'Overlock', sans-serif;
-    font-size: 60px;
     color: teal;
 }
 
+h1 {
+    font-size: 2.2rem;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
 h2 {
-    font-size: 40px;
+    font-size: 1.8rem;
+    text-align: center;
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1rem;
 }
 
 h3.subtitle {
@@ -38,10 +49,10 @@ h3.subtitle {
 p,
 ul,
 ol {
-    font-family: 'Newsreader', serif;
+    font-family: 'Source Sans 3', sans-serif; /* 'Newsreader', serif; */
     font-weight: 400;
     font-style: normal;
-    font-size: 21px;
+    font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -52,7 +63,7 @@ b {
 
 button {
     padding: 15px 30px;
-    font-size: 18px;
+    font-size: 1rem;
     cursor: pointer;
 }
 

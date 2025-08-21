@@ -218,12 +218,12 @@
 	}
 
 	question {
-		font-size: 28px;
+		font-size: 1.5rem;
 		color: teal;
 	}
 
 	answer {
-		font-size: 21px;
+		font-size: 1rem;
 		margin-bottom: 20px;
 	}
 

@@ -4,7 +4,7 @@
 </script>
 
 <main>
-	<h1>Transforming Healthcare Decisions with Personalized Causal AI</h1>
+	<h1>Transforming Healthcare Decisions with <br/> Personalized Causal AI</h1>
 	<p>
 		<b
 			>Moving beyond population averages to provide personalized, cause-and-effect insights for
@@ -106,5 +106,6 @@
 		width: 90%;
 		max-width: 640px;
 		height: auto;
+		margin-top: 5vh;
 	}
 </style>
