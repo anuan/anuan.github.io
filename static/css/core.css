@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ovo&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+:root {
+	/* Colors */
+	--accent: #E63946;
+	--background: #EEEDEB; /* #FAF9F8; #EEEDEB */
+	--lightAccent: whitesmoke; /* #A8DAE5; */
+	--lighterAccent: #E6E8E4;
+	--dark: #457B9D;
+	--darker: #1D3557;
+	--slate: #2F3948;
+
+	--white: #fff;
+	--black: #2d3142; /* #152030; */
+
+	--ink: var(--slate);
+	--paper: var(--white);
+
+	--accentFont: 'Overlock', sans-serif;/*'Atkinson Hyperlegible', Georgia, Times, serif;*/
+	--primaryFont: 'Newsreader', sans-serif;/*'Atkinson Hyperlegible', sans-serif;*/
+	--codeFont: 'Fira Code', monospace;
+
+	--color-background: #cbd5e1;
+	--color-background-alt: #64748b;
+	--color-border-active: #64748b;
+	--color-border-default: #94a3b8;
+	--color-highlight: #cbd5e1;
+	--color-primary: #1e293b;
+	--color-primary-active: #090f1d;
+	--color-text-default: #0f172a;
+	--color-text-muted: #475569;
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	color: var(--ink);
+	font-family: var(--primaryFont);
+	background: var(--paper);
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+main {
+	width: 100%;
+	max-width: 42rem;
+	margin: 6rem auto;
+	padding: 0 1rem;
+}
+
+.layout {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+li {
+	margin-bottom: 0.25rem;
+}

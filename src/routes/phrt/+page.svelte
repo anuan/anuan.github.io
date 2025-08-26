@@ -1,6 +1,5 @@
 <script lang="ts">
 	import video from '$lib/assets/website_draft-small.mp4';
-	import './global.css';
 </script>
 
 <main>

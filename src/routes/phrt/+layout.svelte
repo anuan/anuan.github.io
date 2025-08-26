@@ -10,12 +10,8 @@
 
 <nav>
 	<a href="/phrt/">Home</a>
-	<a href="/phrt/vision">Vision</a>
 	<a href="/phrt/approach">Approach</a>
-	<a href="/phrt/impact" class="hide-mobile">Impact</a>
-	<a href="/phrt/roadmap" class="hide-mobile">Roadmap</a>
 	<a href="/phrt/faq" class="hide-mobile">FAQ</a>
-	<a href="/phrt/about" class="highlight">Contact</a>
 </nav>
 
 {@render children?.()}

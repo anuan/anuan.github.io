@@ -1,7 +1,3 @@
-<script lang="ts">
-	import '../global.css';
-</script>
-
 <main>
 	<h1>Our Methodology: A Causal-First Approach to AI</h1>
 	<p>

@@ -1,7 +1,3 @@
-<script lang="ts">
-	import '../global.css';
-</script>
-
 <main>
 	<h1>Frequently asked questions</h1>
 
