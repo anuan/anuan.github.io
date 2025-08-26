@@ -20,7 +20,19 @@ const config = {
 			precompress: false,
 			strict: true
 		}),
-	}
+		prerender: {
+			entries: [
+				"*",
+				"/api/posts/page/*",
+				"/blog/category/*/page/",
+				"/blog/category/*/page/*",
+				"/blog/category/page/",
+				"/blog/category/page/*",
+				"/blog/page/",
+				"/blog/page/*",
+			],
+		},
+	},
 };
 
 export default config;

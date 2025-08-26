@@ -22,7 +22,7 @@
 		From Correlations To Causal Understanding
 		<track kind="captions" />
 	</video>
-	<p class="buttons"><a href="/phrt/vision" class="button">Our Vision</a></p>
+	<p class="buttons">Our Vision</p>
 
 	<h2>The Challenge with Today's Data-Driven Medicine</h2>
 	<div class="boxes">
@@ -95,7 +95,7 @@
 
 	<p>Explore our vision in detail, learn about our team, or get answers to common questions.</p>
 	<p class="buttons">
-		<a href="/phrt/about" class="button">Get in Touch</a>
+		<a href="/contact" class="button">Get in Touch</a>
 		<a href="/phrt/faq" class="button">FAQ</a>
 	</p>
 </main>

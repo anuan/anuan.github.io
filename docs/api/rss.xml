@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>anuan</title>
+<description>Ideas</description>
+<link>https://anuan.github.io/</link>
+<atom:link href="https://anuan.github.io/api/rss.xml" rel="self" type="application/rss+xml"/>
+<item>
+<guid isPermaLink="true">https://anuan.github.io/blog/causal-sdm-vision</guid>
+<title>Causal AI for Personalized Healthcare Decisions</title>
+<link>https://anuan.github.io/blog/causal-sdm-vision</link>
+<description>How Causal AI can be leveraged for personalized healthcare decisions.</description>
+<pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

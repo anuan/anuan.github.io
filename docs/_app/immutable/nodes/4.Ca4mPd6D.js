@@ -1,0 +1,1 @@
+import"../chunks/DsnmJJEf.js";import"../chunks/69_IOA4Y.js";import{p as t,n as r,$ as n,o as p}from"../chunks/CPEk0RVX.js";import{h as m}from"../chunks/C8Rrf7e2.js";var e=t("<h1>anuan</h1> <p>I work at an AI startup and this is my personal blog.</p>",1);function u(a){var o=e();m(s=>{n.title="About"}),p(2),r(a,o)}export{u as component};

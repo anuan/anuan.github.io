@@ -49,14 +49,14 @@
 		color: teal;
 	}
 
-	a.highlight {
+	/*a.highlight {
 		color: white;
 		background-color: teal;
 		border-radius: 25px;
 		text-align: center;
 		width: 60px;
 		height: 24px;
-	}
+	}*/
 
 	@media all and (max-width: 600px) {
 		nav {
